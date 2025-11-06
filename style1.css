@@ -1,0 +1,69 @@
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 79px;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 4px;
+  display: inline;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.skill-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  
+}
+
+
+.skill-label {
+  flex: 1;
+  color: white;
+}
+
+.skill-value {
+  color: white;
+  margin-left: 10px;
+}
+
+
+input[type="range"] {
+  width: 80%;
+  margin: 10px 0;
+}
+body {
+  background-color: #111;
+}
